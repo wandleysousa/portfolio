@@ -11,6 +11,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    box-shadow:  1px 1px 4px rgba(255, 255, 255, 0.185);
 }
 
 #img > img{
@@ -63,7 +64,7 @@ a > img:hover{
 
 /** style do corpo da pagina **/
 main{
-    background-color: rgba(16, 48, 70, 0.527);
+    background-color: black;
 }
 .corpo{
     height: 350px;
