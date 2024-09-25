@@ -37,7 +37,7 @@ p{
     text-align: center;
     color: aliceblue;
     text-shadow: 1px 1px 1px black;
-    padding: 10px;
+    padding: 5px;
 }
 img{
     background-color: white;
@@ -68,8 +68,8 @@ main{
     background-color: black;
 }
 .corpo, article{
-    height: 350px;
-    width: 45vw;
+    height: 25vh;
+    width: 44vw;
     display: inline-block;
     border: 2px solid rgba(255, 255, 255, 0.534);
     border-radius: 10px;
