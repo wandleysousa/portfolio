@@ -37,7 +37,7 @@ p{
     text-align: center;
     color: aliceblue;
     text-shadow: 1px 1px 1px black;
-    padding: 5px;
+    
 }
 img{
     background-color: white;
@@ -68,7 +68,7 @@ main{
     background-color: black;
 }
 .corpo, article{
-    height: 25vh;
+   
     width: 44vw;
     display: inline-block;
     border: 2px solid rgba(255, 255, 255, 0.534);
@@ -79,7 +79,7 @@ main{
 }
 
 section{
-    margin-top: 10px;
+    margin-top: 100px;
     text-align: center;
     
 }
