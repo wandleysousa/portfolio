@@ -24,7 +24,7 @@ header{
 }
 div{
     text-align: center;
-    padding-top:70px;  
+     
 }
 h1, h2{
     text-align:center;
@@ -68,12 +68,11 @@ main{
     background-color: #030406;
 }
 .corpo, article{
-   
-    width: 44vw;
-    display: inline-block;
+    margin: auto;
+    width: 500px; 
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
-    padding: 0px;
+    margin-top: 10px;
     background-color: rgb(169, 169, 169);
    
 }
