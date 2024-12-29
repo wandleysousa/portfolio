@@ -3,15 +3,19 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 /** stylos cabeçalhos **/
 header{
     height: 500px;
-    background-image: url(img/26621-1.jpg);
+    background-image: url(../img/26621-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
 }
 
 #img > img{
@@ -66,24 +70,31 @@ a > img:hover{
 /** style do corpo da pagina **/
 main{
     background-color: #030406;
+    display: flex;
+    flex-flow: column nowrap;
+    
 }
 .corpo, article{
-    margin: auto;
-    width: 500px; 
+   
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
     margin-top: 10px;
     background-color: rgb(169, 169, 169);
+    display: flex;
+    flex-flow: column nowrap;
    
 }
 
 section{
-    margin-top: 100px;
+    margin: 15px auto;
     text-align: center;
+    width: 500px;
     
 }
 #serv{
-    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 
