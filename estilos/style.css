@@ -43,6 +43,7 @@ p{
     text-align: center;
     color: aliceblue;
     text-shadow: 1px 1px 1px black;
+    padding: 5px;
     
 }
 .logo{
@@ -88,7 +89,7 @@ main{
 section{
     margin: 15px auto;
     text-align: center;
-    width: 400px;
+   
     
 }
 #serv{
@@ -106,4 +107,7 @@ section{
 h3{
     color: white;
     padding: 8px;
+}
+li{
+    padding: 20px;
 }

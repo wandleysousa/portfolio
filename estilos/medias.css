@@ -8,7 +8,13 @@
     
 }
 @media screen and (min-width: 1000px){
-    section{
-        width: 750px;
+    
+     ul {
+    
+        display: inline-flex;
+        flex: row nowrap;
+            
+        justify-content: space-between;
+        align-items: center;
     }
 }
