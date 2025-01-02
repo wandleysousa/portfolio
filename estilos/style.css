@@ -26,6 +26,7 @@ header{
     border: 3px solid white;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
     background-color: white;
+    
 }
 div{
     text-align: center;
@@ -44,7 +45,7 @@ p{
     text-shadow: 1px 1px 1px black;
     
 }
-img{
+.logo{
     background-color: rgba(255, 255, 255, 0.979);
     border-radius: 50%;
     box-shadow: none;
@@ -76,11 +77,9 @@ main{
     
 }
 .corpo, article{
-   
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    margin-top: 10px;
-    background-color: rgb(169, 169, 169);
+    border-radius: px;
+    margin-top: 60px;
+
     display: flex;
     flex-flow: column nowrap;
    
@@ -99,15 +98,12 @@ section{
 }
 
 
-.tit{
-    border: 2px solid rgba(255, 255, 255, 0.534);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    padding-left: 10px;
-    padding-right: 0px;
-    text-align: left;
-    font-size: 1.3em;
-}
+
 .corpo > p, article> p{
     padding: 100px;
+}
+
+h3{
+    color: white;
+    padding: 8px;
 }
