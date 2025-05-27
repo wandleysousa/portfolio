@@ -114,4 +114,8 @@ li{
 .soft{
     
     color: white;
+    width: 300px;
+    background-color: rgb(172 249 243 / 55%);
+    border-radius: 35px;
+    box-shadow: 1px 2px 2px white;
 }
